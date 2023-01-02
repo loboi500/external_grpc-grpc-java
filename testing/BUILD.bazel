@@ -1,35 +1,3 @@
-java_library(
-    name = "testing",
-    srcs = glob([
-        "src/main/java/io/grpc/testing/*.java",
-    ]),
-    resources = glob([
-        "src/main/resources/**",
-    ]),
-    visibility = ["//visibility:public"],
-    deps = [
-        "//context",
-        "//core",
-        "//core:inprocess",
-        "//core:util",
-        "//stub",
-
-        "@com_google_code_findbugs_jsr305//jar",
-        "@com_google_guava_guava//jar",
-        "@com_google_truth_truth//jar",
-        "@junit_junit//jar",
-    ],
-    testonly = 1,
-)
-
-java_library(
-    name = "internal",
-    srcs = glob([
-        "src/main/java/io/grpc/internal/*.java",
-    ]),
-    visibility = ["//:__subpackages__"],
-    deps = [
-        "//core",
-        "//core:internal",
-    ],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:486ff4cdc06d9c15f5bfe7e799877541bf2db7e0d4614d60eab488d75fcd9145
+size 744

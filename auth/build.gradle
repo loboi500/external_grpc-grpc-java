@@ -1,9 +1,3 @@
-description = "gRpc: Auth"
-dependencies {
-    compile project(':grpc-core'),
-            libraries.google_auth_credentials
-    testCompile project(':grpc-testing'),
-            libraries.oauth_client
-    signature "org.codehaus.mojo.signature:java17:1.0@signature"
-    signature "net.sf.androidscents.signature:android-api-level-14:4.0_r4@signature"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:44bea3850e289a77e1f334e0279d1ef2c93589269b3ea0e3ad8ae61cb0e4bd6c
+size 352

@@ -1,9 +1,3 @@
-#!/bin/bash -e
-cd "$(dirname "$0")"
-cat >&2 <<EOF
-Gradle is no longer run automatically. Make sure to run
-'./gradlew installDist -PskipCodegen=true' or
-'./gradlew :grpc-interop-testing:installDist -PskipCodegen=true' after any
-changes. -PskipCodegen=true is optional, but requires less setup.
-EOF
-exec ./interop-testing/build/install/grpc-interop-testing/bin/test-server "$@"
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf33e10b05247fe7b8e61ac182f6fb0c5be89826412f4bc92cc318e0acb0b9e1
+size 376

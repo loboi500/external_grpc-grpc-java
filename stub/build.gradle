@@ -1,10 +1,3 @@
-description = "gRPC: Stub"
-dependencies {
-    compile project(':grpc-core')
-    testCompile libraries.truth,
-            project(':grpc-testing')
-    signature "org.codehaus.mojo.signature:java17:1.0@signature"
-    signature "net.sf.androidscents.signature:android-api-level-14:4.0_r4@signature"
-}
-
-javadoc.options.links "https://google.github.io/guava/releases/${guavaVersion}/api/docs/"
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b836678848a509d220c91f09135ff6869bfb4d0bfb6f6fb304c0033e483f828
+size 389

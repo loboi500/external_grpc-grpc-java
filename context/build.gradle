@@ -1,7 +1,3 @@
-description = 'gRPC: Context'
-
-dependencies {
-    testCompile libraries.jsr305
-    signature "org.codehaus.mojo.signature:java17:1.0@signature"
-    signature "net.sf.androidscents.signature:android-api-level-14:4.0_r4@signature"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fcf107f534b2843c371b255790bc2101506def11b881ac1b858fb4edfef1187f
+size 231

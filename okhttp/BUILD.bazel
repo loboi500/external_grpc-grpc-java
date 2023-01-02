@@ -1,19 +1,3 @@
-java_library(
-    name = "okhttp",
-    srcs = glob([
-        "third_party/okhttp/main/java/**/*.java",
-        "src/main/java/**/*.java",
-    ]),
-    resources = glob([
-        "src/main/resources/**",
-    ]),
-    visibility = ["//visibility:public"],
-    deps = [
-        "//core",
-        "//core:internal",
-        "@com_google_code_findbugs_jsr305//jar",
-        "@com_google_guava_guava//jar",
-        "@com_squareup_okhttp_okhttp//jar",
-        "@com_squareup_okio_okio//jar",
-    ],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:c29cb0a76916f1b249966ca1bb2f106bcec0f5ce36365e86f1de936660f52813
+size 492

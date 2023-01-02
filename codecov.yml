@@ -1,14 +1,3 @@
-coverage:
-  status:
-    patch:
-      default:
-        target: '80'
-    project:
-      default:
-        target: auto
-        threshold: 1
-    changes:
-      default:
-        branches:
-          - nonExistantBranchToDisableTheFeature
-comment: off
+version https://git-lfs.github.com/spec/v1
+oid sha256:5311bc2531a88eb64e2c9fe3db575b7330bdae387c5753daffea269188233cd1
+size 245
